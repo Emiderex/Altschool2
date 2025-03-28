@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 P2</title>
+</head>
+<body>
+    <h2>My Image</h2>
+    <picture>
+        <source srcset="mobile.jpg" media="(max-width: 600px)">
+        <source srcset="tablet.jpg" media="(max-width: 1024px)">
+        <img src="laptop.jpg" alt="My Profile Picture">
+    </picture>
+    
+    <h2>My Audio Message</h2>
+    <audio controls>
+        <source src="message.mp3" type="audio/mpeg">
+        <source src="message.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <h2>My Video Message</h2>
+    <video controls width="400">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+    </video>
+    
+</body>
+</html>
